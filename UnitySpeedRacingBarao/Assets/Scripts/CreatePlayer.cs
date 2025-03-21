@@ -6,7 +6,7 @@ public class CreatePlayer : MonoBehaviour
 {
 
     //public RPGCamera Camera;
-    public CameraTracking Camera;
+    //public CameraTracking Camera;
 
     void OnJoinedRoom()
     {
@@ -19,6 +19,6 @@ public class CreatePlayer : MonoBehaviour
 
         GameObject newPlayerObject = PhotonNetwork.Instantiate( "CarCamaroAmarelo", position, Quaternion.identity, 0 );
 
-        Camera.target = newPlayerObject.transform;
+        //Camera.target = newPlayerObject.transform;
     }
 }
