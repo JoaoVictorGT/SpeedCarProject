@@ -1,6 +1,6 @@
 # 🏎️ Speed Car Project
 
-Este é um projeto de jogo desenvolvido com Unity, onde o jogador controla um carro em alta velocidade desviando de obstáculos e tentando alcançar a maior pontuação possível.
+Este é um projeto de jogo desenvolvido com Unity, onde o jogador controla um carro em alta velocidade atira em obstáculos para alcançar a maior pontuação possível.
 
 ## 🎮 Sobre o jogo
 
