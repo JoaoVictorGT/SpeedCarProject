@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 1a0e18eb65fd0754596a10ca0a34f734
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 36e855b6aeb517e4fbeb3f19bf4bdba8
+  - enabled: 0
     path: Assets/Scenes/BancaBarao.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
   - enabled: 0
@@ -28,3 +34,4 @@ EditorBuildSettings:
       for 4.unity
     guid: e7a7f9734636d415ca84ef3aaf7680f6
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

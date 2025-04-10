@@ -52,5 +52,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "UnitySpeedRacingBarao.sln"
+    "dotnet.defaultSolution": "UnitySpeedRacing.sln"
 }
