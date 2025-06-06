@@ -3,12 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.GlobalIllumination;
-//Com base neste Script - vamos melhorar nosso carro e deixa-lo mais tunano 😜
-//CRIAR UM CARRO COM MOTOR 4 POR 4
-//CRIAR UM CARRO COM FREIO NAS QUATRO RODAS
-//CRIAR UM JIP E UM CAMINHÃO.😱 
-//CRIE UM FREIO DE MÃO .
-//ACENDER E APAGAR A LUZ DO CARRO
 
 public class CarController : MonoBehaviour
 {    

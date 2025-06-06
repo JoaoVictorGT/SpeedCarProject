@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class CreatePlayer : MonoBehaviour
+public class CreatePlayer : MonoBehaviourPunCallbacks 
 {
 
     //public RPGCamera Camera;
     //public CameraTracking Camera;
 
-    void OnJoinedRoom()
+    public override void OnJoinedRoom()
     {
         CreatePlayerObject();
     }
@@ -19,6 +20,5 @@ public class CreatePlayer : MonoBehaviour
 
         GameObject newPlayerObject = PhotonNetwork.Instantiate( "CarCamaroAmarelo", position, Quaternion.identity, 0 );
 
-        //Camera.target = newPlayerObject.transform;
     }
 }
